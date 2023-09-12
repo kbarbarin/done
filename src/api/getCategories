@@ -1,0 +1,7 @@
+const categories = [
+{title: 'A Faire', issues: [{title: 'Tache n°1', dueDate: new Date(), user: 'Audrey', checklist: [{isChecked: false, description: 'test n°1'}, {isChecked: false, description: 'test n°2'}]}]}
+]
+
+export default function getCategories (projet) {
+    return categories;
+}
